@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --port 5176 --strictPort",
     "dev:modus": "vite --config vite.modus.config.ts --port 5177 --strictPort",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && mkdir -p dist/modus && cp dist/modus.html dist/modus/index.html",
     "build:modus": "tsc -b && vite build --config vite.modus.config.ts",
     "lint": "oxlint",
     "preview": "vite preview --port 4173 --strictPort",

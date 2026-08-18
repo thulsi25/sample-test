@@ -190,8 +190,18 @@ export function MokobaraModusPage() {
   const [email, setEmail] = useState('')
   const [subscribed, setSubscribed] = useState(false)
 
+  const homeHref = import.meta.env.BASE_URL
+
   return (
     <div className="mokobara-shell">
+      <p className="px-4 py-2 text-center">
+        <ModusWcTypography hierarchy="p" size="xs">
+          Modus version.{' '}
+          <ModusWcLink color="inherit" href={homeHref} underline="always">
+            Open the original clone
+          </ModusWcLink>
+        </ModusWcTypography>
+      </p>
       <ModusWcNavbar
         mainMenuOpen={menuOpen}
         onMainMenuOpenChange={(event) => setMenuOpen(Boolean(event.detail))}

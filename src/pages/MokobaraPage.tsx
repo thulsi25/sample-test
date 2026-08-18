@@ -156,11 +156,20 @@ export function MokobaraPage() {
   const [email, setEmail] = useState('')
   const [subscribed, setSubscribed] = useState(false)
 
+  const homeHref = import.meta.env.BASE_URL
+  const modusHref = `${import.meta.env.BASE_URL}modus/`
+
   return (
     <div className="min-h-screen bg-white text-neutral-900">
+      <p className="border-b border-neutral-200 bg-neutral-50 px-4 py-2 text-center text-xs text-neutral-600">
+        Original clone.{' '}
+        <a className="underline underline-offset-2" href={modusHref}>
+          Open the Modus version
+        </a>
+      </p>
       <header className="sticky top-0 z-20 border-b border-neutral-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-          <a href="/" className="text-lg font-semibold tracking-tight lowercase">
+          <a href={homeHref} className="text-lg font-semibold tracking-tight lowercase">
             mokobara
           </a>
           <nav className="hidden items-center gap-5 lg:flex">
