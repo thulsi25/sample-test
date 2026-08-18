@@ -1,0 +1,6 @@
+@import '@trimble-oss/moduswebcomponents/modus-wc-styles.css';
+@import 'tailwindcss';
+
+:root {
+  --padding-card: 1rem;
+}
