@@ -1,0 +1,33 @@
+{
+  "name": "sample-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5176 --strictPort",
+    "dev:modus": "vite --config vite.modus.config.ts --port 5177 --strictPort",
+    "build": "tsc -b && vite build && mkdir -p dist/modus && cp dist/modus.html dist/modus/index.html",
+    "build:modus": "tsc -b && vite build --config vite.modus.config.ts",
+    "lint": "oxlint",
+    "preview": "vite preview --port 4173 --strictPort",
+    "preview:modus": "vite preview --config vite.modus.config.ts --port 4174 --strictPort",
+    "scrape:mokobara": "node scripts/scrape-mokobara.mjs"
+  },
+  "dependencies": {
+    "@trimble-oss/moduswebcomponents": "^1.9.1",
+    "@trimble-oss/moduswebcomponents-react": "^1.9.1-react19",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "oxlint": "^1.75.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0"
+  }
+}
