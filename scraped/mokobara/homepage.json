@@ -1,0 +1,411 @@
+{
+  "scrapedAt": "2026-08-18T09:12:24.401Z",
+  "source": "https://mokobara.com/",
+  "title": "Mokobara: Luggage Suitcase & Trolley Bags",
+  "logo": "https://mokobara.com/cdn/shop/files/Mokobara_SVG_White_Logo.svg?format=webp&quality=80&v=1676481803&width=255",
+  "nav": [
+    { "label": "Luggage", "href": "https://mokobara.com/collections/luggage-all" },
+    { "label": "Backpacks and Briefcases", "href": "https://mokobara.com/collections/bags-and-backpacks" },
+    { "label": "Totes", "href": "https://mokobara.com/collections/explore-totes-handbags" },
+    { "label": "Slings and Crossbodies", "href": "https://mokobara.com/collections/slings-and-crossbodies" },
+    { "label": "Accessories", "href": "https://mokobara.com/collections/accessories" },
+    { "label": "Wallets", "href": "https://mokobara.com/collections/explore-wallets" },
+    { "label": "Gift Card", "href": "https://mokobara.woohoo.in/en-gb/e-gift-cards/mokobara-e-gift-card" },
+    { "label": "Clearance Sale", "href": "https://mokobara.com/collections/secret-clearance-sale-2-0" }
+  ],
+  "hero": {
+    "href": "/pages/transit-z",
+    "image": "https://mokobara.com/cdn/shop/files/website_autopilot_banner.webp?quality=80&v=1786454378&width=1920",
+    "mobileImage": "https://mokobara.com/cdn/shop/files/mobile_autopilit_banner.webp?quality=80&v=1786454378&width=1440",
+    "alt": "Transit Autopilot"
+  },
+  "bestsellers": {
+    "title": "Bestsellers",
+    "viewAll": "https://mokobara.com/collections/best-sellers",
+    "products": [
+      {
+        "title": "Transit Backpack - 30L",
+        "url": "https://mokobara.com/products/the-transit-backpack",
+        "handle": "the-transit-backpack",
+        "price": 5999,
+        "compareAt": 9999,
+        "colors": ["Money Moves Sunray", "Seize The Gray", "Home Grown Sunray"],
+        "extraColors": 2,
+        "badge": "HOT",
+        "image": "https://mokobara.com/cdn/shop/files/The_Transit_Backpack_30L_-_Money_Moves_Sunray.webp?quality=80&v=1775645842&width=1440"
+      },
+      {
+        "title": "Sunflower Tote",
+        "url": "https://mokobara.com/products/the-sunflower-tote",
+        "handle": "the-sunflower-tote",
+        "price": 6999,
+        "compareAt": 10999,
+        "colors": ["Money Moves", "Coconut Cream", "Lucky Charm"],
+        "extraColors": 0,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The_Sunflower_Tote_-_Money_Moves.webp?quality=80&v=1775719241&width=1440"
+      },
+      {
+        "title": "Transit Briefcase",
+        "url": "https://mokobara.com/products/the-transit-briefcase",
+        "handle": "the-transit-briefcase",
+        "price": 5499,
+        "compareAt": 8999,
+        "colors": ["Homegrown Sunray", "Tailored Blue", "Money Moves"],
+        "extraColors": 2,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The_Transit_Briefcase_-_Homegrown_Sunray.webp?quality=80&v=1775800797&width=1440"
+      },
+      {
+        "title": "Transit Luggage - Set of 3",
+        "url": "https://mokobara.com/products/the-transit-luggage-set-of-3",
+        "handle": "the-transit-luggage-set-of-3",
+        "price": 16999,
+        "compareAt": 38999,
+        "colors": ["Money Moves Sunray", "Still Loading Brownray", "Money Moves"],
+        "extraColors": 6,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The-Transit-Set-of-3---Money-Moves-Sunray.jpg?format=webp&quality=80&v=1775131750&width=1440"
+      },
+      {
+        "title": "Jazz Tote",
+        "url": "https://mokobara.com/products/the-jazz-tote",
+        "handle": "the-jazz-tote",
+        "price": 8499,
+        "compareAt": 13999,
+        "colors": ["Money Moves", "Cloud Nine"],
+        "extraColors": 0,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/jazz_2.webp?quality=80&v=1778221987&width=800"
+      },
+      {
+        "title": "Aisle Trunk - Cabin",
+        "url": "https://mokobara.com/products/the-aisle-trunk-cabin",
+        "handle": "the-aisle-trunk-cabin",
+        "price": 5499,
+        "compareAt": 10999,
+        "colors": ["Stardust", "Homegrown", "Cool Beans"],
+        "extraColors": 2,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The-Aisle-Trunk---Cabin---Stardust.jpg?format=webp&quality=80&v=1775557953&width=1440"
+      },
+      {
+        "title": "Overnighter Backpack - 23L",
+        "url": "https://mokobara.com/products/the-overnighter-backpack",
+        "handle": "the-overnighter-backpack",
+        "price": 8999,
+        "compareAt": 14999,
+        "colors": ["Headspace", "Money Moves", "Home Grown Sunray"],
+        "extraColors": 0,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The_Overnighter_Backpack_-_Headspace.webp?quality=80&v=1775643728&width=1440"
+      },
+      {
+        "title": "Transit Luggage - Cabin",
+        "url": "https://mokobara.com/products/the-transit-cabin-luggage",
+        "handle": "the-transit-cabin-luggage",
+        "price": 5999,
+        "compareAt": 11999,
+        "colors": ["We Meet Again Sunray", "Money Moves Sunray", "So Matcha"],
+        "extraColors": 6,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The-Transit-Cabin---We-Meet-Again-Sunray.jpg?format=webp&quality=80&v=1775474031&width=1440"
+      },
+      {
+        "title": "Teriyaki Backpack",
+        "url": "https://mokobara.com/products/the-teriyaki-backpack",
+        "handle": "the-teriyaki-backpack",
+        "price": 8999,
+        "compareAt": 12999,
+        "colors": ["Black Sesame", "Tofu"],
+        "extraColors": 0,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The_Teriyaki_Backpack_-_Black_Sesame_781a08ca-87dc-4f1a-add1-c045ff069543.webp?quality=80&v=1780983494&width=1440"
+      },
+      {
+        "title": "Dodge Backpack",
+        "url": "https://mokobara.com/products/the-dodge-backpack",
+        "handle": "the-dodge-backpack",
+        "price": 7999,
+        "compareAt": 12999,
+        "colors": ["Space Station Coffee", "Light Year"],
+        "extraColors": 0,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The_Dodge_Backpack_-_Space_Station_Coffee.webp?quality=80&v=1775637667&width=1440"
+      },
+      {
+        "title": "Transit Cabin Pro",
+        "url": "https://mokobara.com/products/the-transit-cabin-pro",
+        "handle": "the-transit-cabin-pro",
+        "price": 6999,
+        "compareAt": 13999,
+        "colors": ["We Meet Again Sunray", "Money Moves Sunray", "Still Loading Brownray"],
+        "extraColors": 3,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The-Transit-Cabin-Pro---We-meet-Again-Sunray-2.0.jpg?format=webp&quality=80&v=1775551879&width=1440"
+      },
+      {
+        "title": "Moko Mini",
+        "url": "https://mokobara.com/products/moko-mini-bags-online",
+        "handle": "moko-mini-bags-online",
+        "price": 2799,
+        "compareAt": 4999,
+        "colors": ["Cosmic Vibes", "Sunnyside Yellow", "Money Moves"],
+        "extraColors": 9,
+        "badge": "MUST HAVE",
+        "image": "https://mokobara.com/cdn/shop/files/The_Moko_Mini_-_Cosmic_Vibes.webp?quality=80&v=1776062751&width=1440"
+      }
+    ]
+  },
+  "story": {
+    "heading": "The Joy Is in the Details",
+    "body": "Every mokobara goes through inexhaustible rounds of “Is this the most intelligent design we can make?” before reaching you. We choose excellent hardware and sweat over the most microscopic details to make your carry the easiest part of your journey.",
+    "image": "https://mokobara.com/cdn/shop/files/The_Overnighter_Backpack_-_Headspace.webp?quality=80&v=1775643728&width=1440"
+  },
+  "newArrivals": {
+    "title": "New Arrivals",
+    "viewAll": "https://mokobara.com/collections/new-arrivals",
+    "products": [
+      {
+        "title": "Transit Autopilot Backpack",
+        "url": "https://mokobara.com/products/transit-autopilot-backpack",
+        "handle": "transit-autopilot-backpack",
+        "price": 5799,
+        "compareAt": 7999,
+        "colors": ["Money Moves Sunray", "Headspace", "Homegrown"],
+        "extraColors": 0,
+        "badge": "NEW",
+        "image": "https://mokobara.com/cdn/shop/files/Transit-Autopilot-Backpack_Money-Moves-Sunray.jpg?format=webp&quality=80&v=1786368340&width=1440"
+      },
+      {
+        "title": "Transit Z Backpack",
+        "url": "https://mokobara.com/products/transit-z-backpack",
+        "handle": "transit-z-backpack",
+        "price": 6499,
+        "compareAt": 9999,
+        "colors": ["Money Moves Sunray", "Headspace", "Off The Grid"],
+        "extraColors": 0,
+        "badge": "NEW",
+        "image": "https://mokobara.com/cdn/shop/files/Transit-Z-Backpack-Money-Moves-Sunray.jpg?format=webp&quality=80&v=1785409783&width=1440"
+      },
+      {
+        "title": "Aisle Cabin Pro",
+        "url": "https://mokobara.com/products/the-aisle-cabin-pro",
+        "handle": "the-aisle-cabin-pro",
+        "price": 6499,
+        "compareAt": 12999,
+        "colors": ["Money Moves", "Shy Blue", "We Meet Again"],
+        "extraColors": 0,
+        "badge": "NEW",
+        "image": "https://mokobara.com/cdn/shop/files/The-Aisle-Trunk_PDP_C.jpg?format=webp&quality=80&v=1782541880&width=1440"
+      },
+      {
+        "title": "Moko Tracker",
+        "url": "https://mokobara.com/products/moko-tracker",
+        "handle": "moko-tracker",
+        "price": 2499,
+        "compareAt": 4999,
+        "colors": [],
+        "extraColors": 0,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/Artboard_2_1.png?format=webp&quality=80&v=1777974952&width=1440"
+      },
+      {
+        "title": "Stash Bifold Wallet",
+        "url": "https://mokobara.com/products/stash-bifold",
+        "handle": "stash-bifold",
+        "price": 2199,
+        "compareAt": 2999,
+        "colors": ["Ka-Ching", "Money Moves", "Tan Lines"],
+        "extraColors": 0,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/Stash_Bifold_-_Ka-ching.webp?quality=80&v=1776068488&width=1440"
+      },
+      {
+        "title": "Stash Card Case",
+        "url": "https://mokobara.com/products/stash-card-case",
+        "handle": "stash-card-case",
+        "price": 1799,
+        "compareAt": 2999,
+        "colors": ["Money Moves", "Ka-Ching"],
+        "extraColors": 0,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/Stash_Card_Case_-_Money_Moves.webp?quality=80&v=1776069043&width=1440"
+      },
+      {
+        "title": "Aisle Backpack",
+        "url": "https://mokobara.com/products/the-aisle-backpack",
+        "handle": "the-aisle-backpack",
+        "price": 4299,
+        "compareAt": 6999,
+        "colors": ["Good Genes", "Money Moves", "Bear Hug"],
+        "extraColors": 1,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The_Aisle_Backpack_-_Good_Gvenes.webp?quality=80&v=1775630960&width=1440"
+      },
+      {
+        "title": "Aisle Crossbody",
+        "url": "https://mokobara.com/products/the-aisle-crossbody",
+        "handle": "the-aisle-crossbody",
+        "price": 1699,
+        "compareAt": 2499,
+        "colors": ["Nice Ice", "Money Moves", "Excuse me"],
+        "extraColors": 1,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The_Aisle_Crossbody_-_Nice_Ice_8c26f915-038c-43ae-ade8-17451ad5e201.webp?quality=80&v=1777984447&width=1440"
+      },
+      {
+        "title": "Memo Crossbody",
+        "url": "https://mokobara.com/products/the-memo-crossbody",
+        "handle": "the-memo-crossbody",
+        "price": 3999,
+        "compareAt": 5999,
+        "colors": ["Black Sesame", "Mokogram Tofu"],
+        "extraColors": 0,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The_Memo_Crossbody_-_Black_Sesame.webp?quality=80&v=1776875569&width=1440"
+      },
+      {
+        "title": "Bass Briefcase",
+        "url": "https://mokobara.com/products/the-bass-briefcase",
+        "handle": "the-bass-briefcase",
+        "price": 7999,
+        "compareAt": 11999,
+        "colors": ["Black Sesame", "Vision Board"],
+        "extraColors": 0,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The_Bass_Briefcase_-_Mokogram_-_Black_Sesame.webp?quality=80&v=1775738677&width=1440"
+      },
+      {
+        "title": "Celeste Tote",
+        "url": "https://mokobara.com/products/the-celeste-tote",
+        "handle": "the-celeste-tote",
+        "price": 8499,
+        "compareAt": 12999,
+        "colors": ["Tan Lines", "Coconut Cream", "Money Moves"],
+        "extraColors": 0,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The_Celeste_Tote_-_Tan_Lines.webp?quality=80&v=1775718237&width=1440"
+      },
+      {
+        "title": "Astrid Tote",
+        "url": "https://mokobara.com/products/the-astrid-tote",
+        "handle": "the-astrid-tote",
+        "price": 6499,
+        "compareAt": 8999,
+        "colors": ["Morning Affirmations", "Oatmilk"],
+        "extraColors": 0,
+        "badge": null,
+        "image": "https://mokobara.com/cdn/shop/files/The_Astrid_Tote_-_Morning_Affirmations.webp?quality=80&v=1775717722&width=1440"
+      }
+    ]
+  },
+  "promo": {
+    "eyebrow": "The Transit Series",
+    "heading": "The new face of movement.",
+    "cta": "Shop Now",
+    "href": "/collections/explore-transit-luggage",
+    "image": "https://mokobara.com/cdn/shop/files/1_transit_series_600x800_bd104581-1143-4ea2-b5ff-c934f7903d77.webp?quality=80&v=1777889109&width=1200"
+  },
+  "stores": {
+    "heading": "Store Locator",
+    "subheading": "48 reasons to visit us IRL",
+    "cities": [
+      "Delhi NCR",
+      "Bengaluru",
+      "Mumbai",
+      "Pune",
+      "Hyderabad",
+      "Chennai",
+      "Chandigarh",
+      "Ahmedabad",
+      "Surat",
+      "Noida",
+      "Mohali",
+      "Lucknow",
+      "Kozhikode",
+      "Kanpur",
+      "Jalandhar",
+      "Jaipur",
+      "Indore",
+      "Bathinda",
+      "Amritsar"
+    ],
+    "byCity": {
+      "Delhi NCR": [
+        "Basant Lok Market, Delhi",
+        "Connaught Place, New Delhi",
+        "MGF Mall, Gurgaon",
+        "DLF Avenue, Saket",
+        "DLF Summit, Delhi NCR",
+        "Khan Market, Delhi",
+        "Lajpat Nagar, Delhi",
+        "South Ex 2, Delhi NCR",
+        "Worldmark Aerocity, Delhi NCR"
+      ],
+      "Bengaluru": [
+        "Indiranagar, Bengaluru",
+        "Mall of Asia, Bengaluru",
+        "Phoenix Market City, Bangalore",
+        "Brigade Orion Mall, Bengaluru",
+        "Brigade Road, Bengaluru",
+        "HSR Layout, Bengaluru",
+        "M5 Mall, Electronic City",
+        "Nexus Vegacity, Bengaluru"
+      ],
+      "Mumbai": [
+        "Linking Road, Khar West",
+        "Nexus Seawoods",
+        "Phoenix Palladium, Mumbai",
+        "R City, Mumbai",
+        "Oberoi Mall, Mumbai",
+        "Phoenix Market City, Kurla",
+        "T2 International, Mumbai Airport"
+      ],
+      "Pune": [
+        "Amanora Mall, Pune",
+        "MG Road, Pune",
+        "Mall of Millennium, Pune",
+        "Phoenix Market City, Pune",
+        "Tribeca Highstreet, Pune"
+      ],
+      "Hyderabad": [
+        "Sarath City Capital Mall, Hyderabad",
+        "Lakeshore Mall, Hyderabad"
+      ],
+      "Chennai": [
+        "Khader Nawaz Khan Road (KNK), Chennai",
+        "Phoenix Market City, Chennai"
+      ],
+      "Chandigarh": ["Nexus Elante Mall, Chandigarh", "Sector 19C, Chandigarh"],
+      "Ahmedabad": ["CG Road, Ahmedabad", "Palladium Ahmedabad"],
+      "Surat": ["Godh Dod Road, Surat"],
+      "Noida": ["DLF Mall of India, Noida"],
+      "Mohali": ["HLP Galleria, Mohali"],
+      "Lucknow": ["Lulu Lucknow"],
+      "Kozhikode": ["HiLITE Mall, Kozhikode"],
+      "Kanpur": ["Z Square Mall, Kanpur"],
+      "Jalandhar": ["Model Town, Jalandhar"],
+      "Jaipur": ["Vaishali Nagar, Jaipur"],
+      "Indore": ["Apollo Highstreet, Indore"],
+      "Bathinda": ["Bhucho Mandi, Bathinda"],
+      "Amritsar": ["Nexus Amritsar"]
+    }
+  },
+  "footer": {
+    "newsletterHeading": "Warm Hugs, Mokobara.",
+    "newsletterBody": "We’ll email you important updates, new launch info and the occasional raccoon GIF.",
+    "support": "Need assistance? Write to us at support@mokobara.com or call us at +917975298840. We’re available on weekdays from 10:00 AM to 7:00 PM and on Saturdays from 10:00 AM to 6:00 PM.",
+    "corporate": "For Gifting & Corporate orders WhatsApp us at +918904892616 or email bulkorders@mokobara.com",
+    "links": [
+      { "label": "FAQ", "href": "/pages/faq" },
+      { "label": "Claim 30 Day Trial", "href": "/pages/30daytrial" },
+      { "label": "Claim My Warranty", "href": "/pages/claim-my-warranty" },
+      { "label": "Return & Refund Policy", "href": "/pages/returns-and-refunds" },
+      { "label": "Terms and Conditions", "href": "/pages/terms" },
+      { "label": "Privacy Policy", "href": "/pages/privacy" },
+      { "label": "CTRL+Z Airline Damage Policy", "href": "/pages/ctrl-z-policy" },
+      { "label": "Blogs", "href": "/blogs/news" }
+    ]
+  }
+}

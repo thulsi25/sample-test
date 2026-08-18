@@ -1,0 +1,283 @@
+@import '@trimble-oss/moduswebcomponents/modus-wc-styles.css';
+@import 'tailwindcss';
+
+:root {
+  --padding-card: 1rem;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--modus-wc-color-base-page);
+  color: var(--modus-wc-color-base-content);
+  -webkit-font-smoothing: antialiased;
+}
+
+modus-wc-typography p,
+.modus-wc-typography p {
+  margin-bottom: 0;
+}
+
+.modus-wc-card.modus-wc-card {
+  margin-bottom: var(--modus-wc-spacing-xl);
+}
+
+.mokobara-shell {
+  min-height: 100vh;
+  background: var(--modus-wc-color-base-page);
+}
+
+.mokobara-shell-body {
+  position: relative;
+}
+
+.mokobara-rail {
+  position: fixed;
+  inset: 0 auto 0 0;
+  z-index: 30;
+}
+
+.mokobara-rail[data-open='false'] {
+  width: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.mokobara-rail[data-open='true'] {
+  width: 256px;
+  overflow: visible;
+  pointer-events: auto;
+}
+
+#main-content {
+  margin-left: 0 !important;
+}
+
+.mokobara-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.mokobara-nav-links {
+  display: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .mokobara-nav-links {
+    display: flex;
+  }
+}
+
+.mokobara-navbar-end {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.mokobara-hero img {
+  display: block;
+  width: 100%;
+  min-height: 280px;
+  max-height: 640px;
+  height: 52vw;
+  object-fit: cover;
+}
+
+.mokobara-section {
+  width: min(80rem, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.mokobara-section-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.mokobara-product-rail {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .mokobara-product-rail {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    overflow: visible;
+  }
+}
+
+.mokobara-product-card {
+  min-width: 160px;
+  flex: 1;
+}
+
+.mokobara-product-card .modus-wc-card {
+  margin-bottom: 0;
+}
+
+.mokobara-product-media {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--modus-wc-color-base-100);
+}
+
+.mokobara-product-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mokobara-product-badges {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.mokobara-color-names {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.mokobara-story {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  padding-block: 2rem;
+  border-block: 1px solid var(--modus-wc-color-base-200);
+}
+
+@media (min-width: 768px) {
+  .mokobara-story {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.mokobara-story img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  background: var(--modus-wc-color-base-100);
+}
+
+.mokobara-promo {
+  position: relative;
+  min-height: 420px;
+  overflow: hidden;
+  color: var(--modus-wc-color-base-content);
+}
+
+.mokobara-promo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.mokobara-promo-content {
+  position: relative;
+  display: flex;
+  min-height: 420px;
+  width: min(80rem, calc(100% - 2rem));
+  margin-inline: auto;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  padding-block: 4rem;
+}
+
+.mokobara-city-row {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}
+
+.mokobara-store-grid {
+  display: grid;
+  gap: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .mokobara-store-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mokobara-store-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.mokobara-store-card .modus-wc-card {
+  margin-bottom: 0;
+}
+
+.mokobara-footer {
+  border-top: 1px solid var(--modus-wc-color-base-200);
+  background: var(--modus-wc-color-base-100);
+}
+
+.mokobara-footer-grid {
+  display: grid;
+  gap: 2.5rem;
+  width: min(80rem, calc(100% - 2rem));
+  margin-inline: auto;
+  padding-block: 3rem;
+}
+
+@media (min-width: 768px) {
+  .mokobara-footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.mokobara-newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 28rem;
+}
+
+.mokobara-newsletter-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-end;
+}
+
+.mokobara-newsletter-row modus-wc-text-input {
+  flex: 1;
+}
+
+.mokobara-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+}
+
+.mokobara-footnote {
+  border-top: 1px solid var(--modus-wc-color-base-200);
+  padding: 1rem;
+  text-align: center;
+}
