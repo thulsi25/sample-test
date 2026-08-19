@@ -1,6 +1,10 @@
-# sample-test
+# SilvaPRO Customer Data replica
 
-Mokobara landing-page study: original clone plus a Modus Web Components version.
+Vite + React 19 + Modus Web Components replica of the Connected Forest SilvaPRO **MC SilvaPro: Customer Data** frame.
 
-- Live original: https://thulsi25.github.io/sample-test/
-- Live Modus: https://thulsi25.github.io/sample-test/modus/
+```bash
+npm install
+npm run dev
+```
+
+Open http://localhost:5175/
