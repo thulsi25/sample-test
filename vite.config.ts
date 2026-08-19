@@ -7,7 +7,8 @@ export default defineConfig(({ command }) => ({
   base: command === 'build' ? '/sample-test/' : '/',
   plugins: [react(), tailwindcss()],
   server: {
-    port: 5176,
+    host: '0.0.0.0',
+    port: 5175,
     strictPort: true,
   },
   preview: {
